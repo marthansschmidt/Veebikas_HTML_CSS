@@ -1,9 +1,21 @@
+
+body {
+    background-image: linear-gradient(to left, rgba(195, 0, 255, 0.357), rgb(153, 0, 255));
+    margin: 0%;
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(20, 165, 88, 0), rgba(170, 0, 255, 0.663));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+}
 p {
-    width: 30px;
+    width: 300px;
 }
 img {
-    width: 150px;
-}
-.title {
-    
+    width: 450px;
+    filter: brightness(1.1);
+    filter: grayscale(0.5);
 }
